@@ -1,0 +1,43 @@
+import React from 'react'
+
+import styles from './home.module.css'
+
+const Home = (props) => {
+  return (
+    <div className={styles['container']}>
+      <div className={styles['navbar-logo-left']}>
+        <div className={styles['navbar-container']}>
+          <div className={styles['navbar-content']}>
+            <div className={styles['navbar-brand']}>
+              <div className={styles['group1']}>
+                <span className={styles['text']}>
+                  <span>Artist</span>
+                </span>
+                <span className={styles['text2']}>Dawn Philip</span>
+              </div>
+            </div>
+          </div>
+          <div className={styles['navbar-menu']}>
+            <div className={styles['navbar-link']}>
+              <span className={styles['text3']}>
+                <span>Index</span>
+              </span>
+            </div>
+            <div className={styles['navbar-link1']}>
+              <span className={styles['text5']}>
+                <span>Skills</span>
+              </span>
+            </div>
+            <div className={styles['navbar-link2']}>
+              <span className={styles['text7']}>
+                <span>Contact</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Home
